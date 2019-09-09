@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+a, button {
+    transition: .3s ease;
+}
+
+.header {
+    text-align: center;
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+}
+
+#list-container {
+    display: block;
+    margin: 0 auto;
+}
+
+#input_for_add_to_do,
+.list-group-item {
+    border-radius: 3px;
+    border: 1px solid #8A2BE2;
+    box-shadow: none;
+}
+
+.input_and_btn_block {
+    margin: 1rem 0;
+}
+
+#input_for_add_to_do,
+#add_btn {
+    display: inline-block;
+}
+
+.input_and_btn_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.trash_btn,
+.check_btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #000;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    margin: .3rem 0;
+    cursor: pointer;
+
+}
+
+.to_do_text {
+    margin: 0 1rem;
+}
+
+button:hover {
+    color: #ff0000;
+}
+.btn:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.white_color {
+    color: #fff;
+}
+
+i.fas.fa-trash-alt:hover,
+i.far.fa-check-circle:hover {
+ color: #ff0000;
+}
+
+.active_list {
+    background-color: #ffae19;
+
+}
+
